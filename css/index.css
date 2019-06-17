@@ -1,0 +1,26 @@
+body {
+    margin: 0 auto;
+}
+h3 {
+    display: inline-block;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #00A1F1;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
