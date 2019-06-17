@@ -1,6 +1,10 @@
 var express = require('express');
+var passport = require('passport');
+var GoogleStrategy = require('passport-google-oauth').OAuth2Strategy;
+var config = require('./config');
 bodyParser = require('body-parser');
 var app = express();
+var googleProfile = {};
 app.use(bodyParser.json());
 
 app.use(express.static('css'));
