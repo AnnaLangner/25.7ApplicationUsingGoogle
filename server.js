@@ -7,6 +7,13 @@ var app = express();
 var googleProfile = {};
 app.use(bodyParser.json());
 
+passport.serializeUser(function(user, done) {
+    done(null, user);
+});
+passport.deserializeUser(function(obj, done) {
+    done(null, obj);
+});
+
 app.use(express.static('css'));
 app.use(express.static('assets'));
 
