@@ -1,12 +1,11 @@
 body {
-    margin: 0 auto;
+    text-align: center;
 }
 h3 {
     display: inline-block;
     white-space: pre-wrap;
     word-wrap: break-word;
-    justify-content: center;
-    text-align: center;
+    max-width: 500px;
     font-size: 22px;
 }
 
