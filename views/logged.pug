@@ -1,0 +1,15 @@
+doctype html
+html
+    head
+        meta(charset='UTF-8')
+        title log in with Google
+        link(
+            rel='stylesheet',
+            href='../logged.css',
+            type='text/css'
+                    )
+    body
+        h1 You are logged as #{user.displayName}
+        h3 If you want to check your mail click link below
+        .button-wrapper
+            a(href='https://www.google.com/gmail/') go to the Gmail
